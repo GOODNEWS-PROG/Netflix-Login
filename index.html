@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box">
+    <h1 class="main">NETFLIX</h1>
+<div class="login">
+<H2 class="main_1" >Sign In</H2>
+
+<!-- <input class="inp" name type="text" name="name`" id="name" placeholder="Name" ><br> -->
+<input class="inp1" type="text" name="email" id="" placeholder="Email or Phone number"><br>
+<input class="inp2" type="text" name="password" id="" placeholder="Password"><br>
+<button onclick="
+     sign_in();
+"
+      class="btn"
+    
+    
+>Sign In</button>
+
+</div>
+<div class="checkbox">
+<input class="bt" type="checkbox" value="isRemeberMe"
+id="Rememberme"><label for="Rememberme"></label>
+<p class="pin">Remember me</p>
+<p class="ne">Need help?</p>
+</div>
+</div>
+<script>
+     function sign_in() {
+        const buttonElement = document.querySelector(".btn");
+
+        if (buttonElement.innerText === "sign in") {
+          buttonElement.innerHTML = "signed in";
+          buttonElement.classList.add("is-subscribed");
+        } else {
+          buttonElement.innerHTML = "sign in";
+          buttonElement.classList.remove("is-subscribed");
+        }
+      }
+</script>
+
+</body>
+</html>

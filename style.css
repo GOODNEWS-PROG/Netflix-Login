@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+
+.box{
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.main{
+    color: rgb(238, 9, 9);
+    margin-left: -8%;
+    margin-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main_1{
+    margin-left: -7%;
+    color: white;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+/* .inp{
+    height: 40px;
+    width: 300px;
+    margin-left: -8%;
+    margin-bottom: 1%;
+    
+} */
+.inp1{
+    height: 40px;
+    width: 300px;
+    margin-left: -8%;
+    margin-bottom: 1%;
+    background-color: rgb(60, 57, 57);
+    border: none;
+    border-radius: 3px;
+    padding: 2%;
+    font-size: 11px;
+}
+.inp2{
+    height: 40px;
+    width: 300px;
+    margin-left: -8%;
+    margin-bottom: 1%;
+    background-color: rgb(60, 57, 57);
+    border: none;
+    border-radius: 3px;
+    padding: 2%;
+    font-size: 11px;
+}
+.btn{
+    height: 40px;
+    width: 300px;
+    margin-left: -8%;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 3%;
+}
+
+.btn:hover{
+    background-color: rgb(60, 57, 57);
+}
+.pin{
+color: rgb(60, 57, 57);
+margin-left: 0.4%;
+font-size: 12px;
+}
+.checkbox{
+    display: flex;
+    margin-left: -8%;
+    margin-top: 1.6%;
+}
+.bt{
+
+    margin-bottom: 2%;
+    background-color: rgb(60, 57, 57);
+}
+.ne{
+    color: rgb(60, 57, 57);
+    margin-left: 20%;
+    font-size: 12px;
+}
+body{
+    color: white;
+
+}
+.new{
+    display: flex;
+    margin-left: -8%;
+    margin-top: 3%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:768px) {
+   .box{
+       margin-left: 25%;
+       margin-top: 25%;
+   } 
+   .pin{
+       margin-left: -21%;
+   }
+   .ne{
+       margin-left: 39%;
+   }
+}
+
+@media screen and (max-width:900px) {
+    .box{
+        margin-left: 35%;
+        margin-top: 25%;
+    } 
+    .pin{
+        margin-left: -16.8%;
+    }
+    .ne{
+        margin-left: 31%;
+    }
+}
